@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Loan Calculator.jnlp">
+  <information>
+    <title>Loan Calculator</title>
+    <vendor>Ronsoftstudios</vendor>
+    <description>Loan Calculator</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX.jar" size="9863" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="700" height="500" main-class="loan.Main"  name="Loan Calculator" />
+  <update check="background"/>
+</jnlp>
